@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'pgenerator/base.html' %}
+{% block body-content %}
+<div class="p-3 mb-2 bg-light text-dark"><h1>Password</h1></div>
+<div class="aler alert-success"><h2>{{ passwordkey }}</h2></div>
+
+<a href="{% url 'home' %}"><input type="button" value="Home" class="btn btn-primary"></a>
+{% endblock %}
